@@ -1,8 +1,10 @@
-#include <iostream>
-using namespace std;
+#include "head.h"
 
-int main() {
-    cout << "Hello World. I like yogurt." << endl;
+using namespace N;
 
+int main()
+{
+    my_class mc;
+    mc.do_something();
     return 0;
 }
